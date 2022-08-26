@@ -5,10 +5,52 @@
     <title>Etiqueta de Video</title>
   </head>
   <body>
-    <center>
-      <video width="320" height="240" controls="controls" poster="img.jpg">
-        <source src="archivos/video/video.mp4" type="video/mp4" />
-      </video>
-    </center>
+    <h1>Travel Authorization Form</h1>
+
+    <h3>Sección A: Información del cliente</h3>
+
+    <label for="cargo">Cargo:</label>
+    <input type="text" name="cargo" id="cargo" placeholder="">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="name" id="name" placeholder="">
+
+    <label for="apellido">Primer apellido:</label>
+    <input type="text" name="apellido" id="apellido" placeholder="">
+
+    <label for="apellido">Segundo apellido:</label>
+    <input type="text" name="apellido" id="apellido" placeholder="">
+
+    <label for="email">Correo electrónico:</label>
+    <input type="text" name="email" id="email" placeholder="">
+
+    <label for="number">Numeró de teléfono:</label>
+    <input type="text" name="number" id="number" placeholder="">
+
+    <h3>Sección B: Información del viaje</h3>
+
+    <label for="aerolinea">Nombre de aerolinea:</label>
+    <select name="combo">
+      <option value="1">Latam</option>
+      <option value="2" selected>Easypi</option> <!-- Opción por defecto -->
+      <option value="3">Airline</option>
+    </select>
+
+    <label for="destino">Destino:</label>
+    <input type="text" name="destino" id="destino" placeholder="">
+
+    <label for="salida">Fecha de salida:</label>
+    <input type="date" name="salida" id="salida" min="2018-03-31">
+
+    <label for="regreso">Fecha de regreso:</label>
+    <input type="date" name="regreso" id="regreso" min="2018-03-31>
+
+    <label for="coste">Coste estimado:</label>
+    <input type="text" name="coste" id="coste" placeholder="">
+
+    <label for="number"> </label>
+    <input type="text" name="number" id="number" placeholder="">
+
+
   </body>
 </html>
